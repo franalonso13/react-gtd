@@ -1,0 +1,44 @@
+// you must include each plugins' css
+// paths prefixed with ~ signify node_modules
+@import "~@fullcalendar/core/main.css";
+@import "~@fullcalendar/daygrid/main.css";
+@import "~@fullcalendar/timegrid/main.css";
+
+.app-calendar {
+  background-color: white;
+  margin: 0 auto;
+  max-width: 1024px;
+}
+.legend-container {
+  background-color: white;
+  margin: 0 auto;
+  height: 40px;
+  max-width: 1024px;
+}
+
+/* basic positioning */
+.legend {
+  list-style: none;
+}
+.legend li {
+  float: left;
+  margin-right: 10px;
+  font-weight: bold;
+}
+.legend span {
+  float: left;
+  width: 12px;
+  height: 12px;
+  margin-top: 7px;
+  margin-right: 3px;
+}
+/* your colors */
+.legend .evento {
+  background-color: #fb8c00;
+}
+.legend .tareaPlanificada {
+  background-color: #7cb342;
+}
+.legend .fechaVencimiento {
+  background-color: #ffd600;
+}

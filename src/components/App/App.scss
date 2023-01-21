@@ -1,0 +1,73 @@
+// Override default variables before the import
+$body-bg: #f0f0f0;
+$enable-gradients: true;
+// Import Bootstrap and its default variables
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+.divComplete {
+  height: 100%;
+  width: 100%;
+}
+
+//Social Login
+.loginBackground {
+  background-color: #c1d5e0;
+}
+.loginHeader {
+  font-size: 4rem;
+  padding: 30px;
+  margin-bottom: 20px;
+  color: #546e7a;
+}
+
+.loginContainer {
+  height: 45%;
+  background-color: white;
+  border-radius: 20px;
+}
+.buttonLogin {
+  padding: 7px;
+  font-size: 21px;
+  border-radius: 8px;
+  border: 0;
+  background-color: white;
+  color: #29434e;
+  box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+}
+
+.buttonLogin:hover {
+  box-shadow: 0 0 24px 0 #c1d5e0;
+}
+
+.buttonLogin:focus {
+  outline: none;
+  box-shadow: 0 0 27px 0 #c1d5e0;
+}
+
+// CSS nav
+.navContainer {
+  background-color: white;
+  width: 40%;
+}
+
+nav div a {
+  color: #c1d5e0;
+  font-size: 23px;
+  text-decoration: none;
+}
+
+nav div a:hover {
+  color: #29434e;
+  text-decoration: none;
+}
+
+.activeNavItem {
+  color: #29434e;
+}
+
+@import "~bootstrap/scss/bootstrap.scss";
