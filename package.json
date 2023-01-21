@@ -30,6 +30,8 @@
     "react-transition-group": "^4.4.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -52,5 +54,7 @@
   },
   "devDependencies": {
     "uuid": "^7.0.3"
-  }
+  },
+  "homepage":"https://franalonso13.github.io/react-gtd"
+
 }
