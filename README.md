@@ -1,3 +1,5 @@
 # react-gtd
 Aplicación web de productividad basado en el método GTD. 
-Publish url: https://franalonso13.github.io
+
+## Public url
+https://franalonso13.github.io/react-gtd
