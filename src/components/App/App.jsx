@@ -95,7 +95,7 @@ class App extends React.Component {
     if (this.state.user) {
       return (
         <>
-          <Router>
+          <Router basename="react-gtd">
             <div className="d-flex justify-content-center">
               <nav
                 style={{ minWidth: "600px" }}
